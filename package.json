@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test:chromium": "cross-env BROWSER=chromium cucumber-js --format json:./reports/json/chromium.json --require ./features/**/*.js --require ./support/*.js",
-    "test:firefox": "cross-env BROWSER=firefox cucumber-js --format json:./reports/json/firefox.json --require ./features/**/*.js --require ./support/*.js",
-    "test:webkit": "cross-env BROWSER=webkit cucumber-js --format json:./reports/json/webkit.json --require ./features/**/*.js --require ./support/*.js",
-    "test:all": "concurrently \"npm run test:chromium\" \"npm run test:firefox\" \"npm run test:webkit\"",
-    "test:exceptions": "cross-env BROWSER=chromium cucumber-js features/exceptions --require ./features/**/*.js --require ./support/*.js --format json:./reports/json/exceptions.json",
-    "test:login": "cross-env BROWSER=chromium cucumber-js features/login --require ./features/**/*.js --require ./support/*.js --format json:./reports/json/login.json",
-    "test:table": "cross-env BROWSER=chromium cucumber-js features/table --require ./features/**/*.js --require ./support/*.js --format json:./reports/json/table.json",
-    "report": "node ./support/report.js"
-  },
+"scripts": {
+  "test:chromium": "cross-env BROWSER=chromium cucumber-js features/**/*.feature --require features/step-defination/**/*.js --require support/**/*.js --format json:reports/json/chromium.json",
+  "test:firefox": "cross-env BROWSER=firefox cucumber-js features/**/*.feature --require features/step-defination/**/*.js --require support/**/*.js --format json:reports/json/firefox.json",
+  "test:webkit": "cross-env BROWSER=webkit cucumber-js features/**/*.feature --require features/step-defination/**/*.js --require support/**/*.js --format json:reports/json/webkit.json",
+
+  "test:exceptions": "cross-env BROWSER=chromium cucumber-js features/exceptions/**/*.feature --require features/step-defination/**/*.js --require support/**/*.js --format json:reports/json/exceptions.json",
+  "test:login": "cross-env BROWSER=chromium cucumber-js features/login/**/*.feature --require features/step-defination/**/*.js --require support/**/*.js --format json:reports/json/login.json",
+  "test:table": "cross-env BROWSER=chromium cucumber-js features/table/**/*.feature --require features/step-defination/**/*.js --require support/**/*.js --format json:reports/json/table.json",
+
+  "test:all": "concurrently \"npm run test:chromium\" \"npm run test:firefox\" \"npm run test:webkit\"",
+  "report": "node support/report.js"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
