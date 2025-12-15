@@ -10,48 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Checkout repository
     - name: Checkout Code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
-    # 2. Install Node.js
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: 18
+        cache: npm
 
-    # 3. Install npm packages
     - name: Install Dependencies
-      run: npm install
+      run: npm ci
 
-    # 4. Install Playwright browsers
+    - name: Fix Permissions
+      run: chmod -R +x node_modules/.bin
+
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
 
-    # 5. Run Chromium Tests
-    - name: Run Tests - Chromium
-      run: |
-        BROWSER=chromium \
-        npx cucumber-js --format json:./reports/json/chromium.json \
-        --require ./support/*.js \
-        --require ./features/step-defination/*.js
+    - name: Run Chromium Tests
+      run: npm run test:chromium
 
-    # 6. Run Firefox Tests
-    - name: Run Tests - Firefox
-      run: |
-        BROWSER=firefox \
-        npx cucumber-js --format json:./reports/json/firefox.json \
-        --require ./support/*.js \
-        --require ./features/step-defination/*.js
+    - name: Run Firefox Tests
+      run: npm run test:firefox
 
-    # 7. Run WebKit Tests
-    - name: Run Tests - Webkit
-      run: |
-        BROWSER=webkit \
-        npx cucumber-js --format json:./reports/json/webkit.json \
-        --require ./support/*.js \
-        --require ./features/step-defination/*.js
+    - name: Run WebKit Tests
+      run: npm run test:webkit
 
-    # 8. Generate HTML Report
     - name: Generate HTML Report
-      run: node ./support/report.js
+      run: npm run report
