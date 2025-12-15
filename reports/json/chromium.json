@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5888245800
+              "duration": 2201939899
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "I open the Test Exceptions page",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+              "location": "features\\step-definitions\\exceptions.steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 11714647600
+              "duration": 8497243999
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "I click the Add button",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:13"
+              "location": "features\\step-definitions\\exceptions.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1276837198
+              "duration": 1971042700
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "Row 2 input field should be displayed",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:17"
+              "location": "features\\step-definitions\\exceptions.steps.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 5177083800
+              "duration": 5862122198
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12602080600
+              "duration": 13594852299
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5005715100
+              "duration": 997182999
             }
           },
           {
@@ -89,11 +89,11 @@
             "line": 9,
             "name": "I open the Test Exceptions page",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+              "location": "features\\step-definitions\\exceptions.steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 5404543099
+              "duration": 2312948299
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 10,
             "name": "I click the Add button",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:13"
+              "location": "features\\step-definitions\\exceptions.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 507818500
+              "duration": 168838099
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 11,
             "name": "I wait for Row 2 input to appear",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:24"
+              "location": "features\\step-definitions\\exceptions.steps.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 5295853698
+              "duration": 6034062499
             }
           },
           {
@@ -128,11 +128,11 @@
             "line": 12,
             "name": "I type \"Hello123\" into Row 2 input field",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:28"
+              "location": "features\\step-definitions\\exceptions.steps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 1884924798
+              "duration": 508839299
             }
           },
           {
@@ -141,11 +141,11 @@
             "line": 13,
             "name": "I click the visible Save button",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:32"
+              "location": "features\\step-definitions\\exceptions.steps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 97143800
+              "duration": 932617999
             }
           },
           {
@@ -154,11 +154,11 @@
             "line": 14,
             "name": "I should see the saved confirmation",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:36"
+              "location": "features\\step-definitions\\exceptions.steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 32265700
+              "duration": 23164998
             }
           },
           {
@@ -166,7 +166,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9978357299
+              "duration": 18180333300
             }
           }
         ],
@@ -185,7 +185,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1219849600
+              "duration": 2522027700
             }
           },
           {
@@ -194,11 +194,11 @@
             "line": 17,
             "name": "I open the Test Exceptions page",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+              "location": "features\\step-definitions\\exceptions.steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2301699000
+              "duration": 2449885800
             }
           },
           {
@@ -207,11 +207,11 @@
             "line": 18,
             "name": "I click the Edit button",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:43"
+              "location": "features\\step-definitions\\exceptions.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 255741698
+              "duration": 677177598
             }
           },
           {
@@ -220,11 +220,11 @@
             "line": 19,
             "name": "I clear Row 1 input field",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:47"
+              "location": "features\\step-definitions\\exceptions.steps.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 242922899
+              "duration": 158161099
             }
           },
           {
@@ -233,11 +233,11 @@
             "line": 20,
             "name": "I type \"mirza\" into Row 1 input field",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:51"
+              "location": "features\\step-definitions\\exceptions.steps.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 16584400
+              "duration": 37087400
             }
           },
           {
@@ -246,11 +246,11 @@
             "line": 21,
             "name": "I click the Save button",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:55"
+              "location": "features\\step-definitions\\exceptions.steps.js:55"
             },
             "result": {
               "status": "passed",
-              "duration": 100119798
+              "duration": 386691398
             }
           },
           {
@@ -259,11 +259,11 @@
             "line": 22,
             "name": "I should see the Row 1 saved message",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:59"
+              "location": "features\\step-definitions\\exceptions.steps.js:59"
             },
             "result": {
               "status": "passed",
-              "duration": 23634498
+              "duration": 39434799
             }
           },
           {
@@ -271,7 +271,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2290157500
+              "duration": 5242555899
             }
           }
         ],
@@ -290,7 +290,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1779598499
+              "duration": 4222340500
             }
           },
           {
@@ -299,11 +299,11 @@
             "line": 25,
             "name": "I open the Test Exceptions page",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+              "location": "features\\step-definitions\\exceptions.steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2853254899
+              "duration": 8010291998
             }
           },
           {
@@ -312,11 +312,11 @@
             "line": 26,
             "name": "I capture the instructions text element",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:66"
+              "location": "features\\step-definitions\\exceptions.steps.js:65"
             },
             "result": {
               "status": "passed",
-              "duration": 71566700
+              "duration": 560239900
             }
           },
           {
@@ -325,11 +325,11 @@
             "line": 27,
             "name": "I click the Add button for stale test",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:72"
+              "location": "features\\step-definitions\\exceptions.steps.js:70"
             },
             "result": {
               "status": "passed",
-              "duration": 52480600
+              "duration": 308580299
             }
           },
           {
@@ -338,11 +338,11 @@
             "line": 28,
             "name": "The instructions text element should disappear",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:76"
+              "location": "features\\step-definitions\\exceptions.steps.js:74"
             },
             "result": {
               "status": "passed",
-              "duration": 13957898
+              "duration": 135084399
             }
           },
           {
@@ -350,7 +350,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10299512900
+              "duration": 10768214799
             }
           }
         ],
@@ -369,7 +369,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1106073199
+              "duration": 1826202000
             }
           },
           {
@@ -378,11 +378,11 @@
             "line": 31,
             "name": "I open the Test Exceptions page",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+              "location": "features\\step-definitions\\exceptions.steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2437629898
+              "duration": 4084753699
             }
           },
           {
@@ -391,11 +391,11 @@
             "line": 32,
             "name": "I click the Add button",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:13"
+              "location": "features\\step-definitions\\exceptions.steps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 189428699
+              "duration": 1020628198
             }
           },
           {
@@ -404,11 +404,11 @@
             "line": 33,
             "name": "I wait only 3 seconds for Row 2 input",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:91"
+              "location": "features\\step-definitions\\exceptions.steps.js:84"
             },
             "result": {
               "status": "passed",
-              "duration": 3008951598
+              "duration": 3005621099
             }
           },
           {
@@ -417,11 +417,11 @@
             "line": 34,
             "name": "Row 2 input should NOT be displayed within 3 seconds",
             "match": {
-              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:104"
+              "location": "features\\step-definitions\\exceptions.steps.js:95"
             },
             "result": {
               "status": "passed",
-              "duration": 872300
+              "duration": 591599
             }
           },
           {
@@ -429,7 +429,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3255049100
+              "duration": 12700071599
             }
           }
         ],
@@ -459,7 +459,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1400568799
+              "duration": 3393589400
             }
           },
           {
@@ -468,11 +468,11 @@
             "line": 4,
             "name": "I open the Practice Test login page",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:11"
+              "location": "features\\step-definitions\\login.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3563122398
+              "duration": 2543740699
             }
           },
           {
@@ -481,11 +481,11 @@
             "line": 5,
             "name": "I login with username \"student\" and password \"Password123\"",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:19"
+              "location": "features\\step-definitions\\login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 1855506399
+              "duration": 1764542399
             }
           },
           {
@@ -494,11 +494,11 @@
             "line": 6,
             "name": "I should see the success message",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:53"
+              "location": "features\\step-definitions\\login.steps.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 209621098
+              "duration": 228994299
             }
           },
           {
@@ -506,7 +506,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4529093099
+              "duration": 18523073499
             }
           }
         ],
@@ -525,7 +525,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1639115999
+              "duration": 4930557899
             }
           },
           {
@@ -534,11 +534,11 @@
             "line": 9,
             "name": "I open the Practice Test login page",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:11"
+              "location": "features\\step-definitions\\login.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3327938100
+              "duration": 3565997998
             }
           },
           {
@@ -547,11 +547,11 @@
             "line": 10,
             "name": "I login with username \"incorrectUser\" and password \"Password123\"",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:19"
+              "location": "features\\step-definitions\\login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 395230999
+              "duration": 5471732699
             }
           },
           {
@@ -560,11 +560,11 @@
             "line": 11,
             "name": "I should see the error message",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:59"
+              "location": "features\\step-definitions\\login.steps.js:59"
             },
             "result": {
               "status": "passed",
-              "duration": 174376700
+              "duration": 66137500
             }
           },
           {
@@ -572,7 +572,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3426057100
+              "duration": 6331530999
             }
           }
         ],
@@ -591,7 +591,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1978809899
+              "duration": 1839385200
             }
           },
           {
@@ -600,11 +600,11 @@
             "line": 14,
             "name": "I open the Practice Test login page",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:11"
+              "location": "features\\step-definitions\\login.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3093323999
+              "duration": 3623170198
             }
           },
           {
@@ -613,11 +613,11 @@
             "line": 15,
             "name": "I login with username \"student\" and password \"incorrectPassword\"",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:19"
+              "location": "features\\step-definitions\\login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 233243598
+              "duration": 875771499
             }
           },
           {
@@ -626,11 +626,11 @@
             "line": 16,
             "name": "I should see the error message",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:59"
+              "location": "features\\step-definitions\\login.steps.js:59"
             },
             "result": {
               "status": "passed",
-              "duration": 323110900
+              "duration": 73148900
             }
           },
           {
@@ -638,7 +638,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6090482900
+              "duration": 3422395699
             }
           }
         ],
@@ -657,7 +657,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1370599000
+              "duration": 1250268400
             }
           },
           {
@@ -666,11 +666,11 @@
             "line": 19,
             "name": "I open the Practice Test login page",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:11"
+              "location": "features\\step-definitions\\login.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3168625399
+              "duration": 3390595798
             }
           },
           {
@@ -679,11 +679,11 @@
             "line": 20,
             "name": "I login with username \"@22348&*@()\" and password \"&*@@#&\"",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:19"
+              "location": "features\\step-definitions\\login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 510552398
+              "duration": 480122499
             }
           },
           {
@@ -692,11 +692,11 @@
             "line": 21,
             "name": "I should see the error message",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:59"
+              "location": "features\\step-definitions\\login.steps.js:59"
             },
             "result": {
               "status": "passed",
-              "duration": 129008899
+              "duration": 70256499
             }
           },
           {
@@ -704,7 +704,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3620337900
+              "duration": 3935794400
             }
           }
         ],
@@ -734,7 +734,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1670532500
+              "duration": 771269700
             }
           },
           {
@@ -743,11 +743,11 @@
             "line": 4,
             "name": "I open the Practice Test Table page",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:4"
+              "location": "features\\step-definitions\\table.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 3314010500
+              "duration": 2317855800
             }
           },
           {
@@ -756,11 +756,11 @@
             "line": 5,
             "name": "I select language filter \"Java\"",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:10"
+              "location": "features\\step-definitions\\table.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1102607799
+              "duration": 761261799
             }
           },
           {
@@ -769,11 +769,11 @@
             "line": 6,
             "name": "I count how many cells in column 3 contain \"Java\"",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:14"
+              "location": "features\\step-definitions\\table.steps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 90106399
+              "duration": 39406599
             }
           },
           {
@@ -781,7 +781,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7251197699
+              "duration": 1961521900
             }
           }
         ],
@@ -800,7 +800,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 767863799
+              "duration": 958940700
             }
           },
           {
@@ -809,11 +809,11 @@
             "line": 9,
             "name": "I open the Practice Test Table page",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:4"
+              "location": "features\\step-definitions\\table.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 2232973499
+              "duration": 3119913600
             }
           },
           {
@@ -822,11 +822,11 @@
             "line": 10,
             "name": "I uncheck level \"Intermediate\"",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:23"
+              "location": "features\\step-definitions\\table.steps.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 637442800
+              "duration": 1149866699
             }
           },
           {
@@ -835,11 +835,11 @@
             "line": 11,
             "name": "I uncheck level \"Advanced\"",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:23"
+              "location": "features\\step-definitions\\table.steps.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 873089699
+              "duration": 1030414500
             }
           },
           {
@@ -848,11 +848,11 @@
             "line": 12,
             "name": "the level should contain \"Beginner\"",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:26"
+              "location": "features\\step-definitions\\table.steps.js:31"
             },
             "result": {
               "status": "passed",
-              "duration": 8431698
+              "duration": 77064098
             }
           },
           {
@@ -860,7 +860,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2098970499
+              "duration": 3007620999
             }
           }
         ],
@@ -879,7 +879,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 943195999
+              "duration": 806139200
             }
           },
           {
@@ -888,11 +888,11 @@
             "line": 15,
             "name": "I open the Practice Test Table page",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:4"
+              "location": "features\\step-definitions\\table.steps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 3502787000
+              "duration": 4481840598
             }
           },
           {
@@ -901,11 +901,11 @@
             "line": 16,
             "name": "I open the filter dropdown",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:37"
+              "location": "features\\step-definitions\\table.steps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 351118600
+              "duration": 359011399
             }
           },
           {
@@ -914,11 +914,11 @@
             "line": 17,
             "name": "I select the option \"10,000+\"",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:41"
+              "location": "features\\step-definitions\\table.steps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 79731498
+              "duration": 581679100
             }
           },
           {
@@ -927,11 +927,11 @@
             "line": 18,
             "name": "I print the enrollment column name and all row values",
             "match": {
-              "location": "features\\table\\step-definitions\\table.steps.js:44"
+              "location": "features\\step-definitions\\table.steps.js:45"
             },
             "result": {
               "status": "passed",
-              "duration": 77260298
+              "duration": 417759799
             }
           },
           {
@@ -939,7 +939,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2147878899
+              "duration": 4040675799
             }
           }
         ],

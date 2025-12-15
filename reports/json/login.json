@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1303625900
+              "duration": 672142499
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "I open the Practice Test login page",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:11"
+              "location": "features\\step-definitions\\login.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3112511098
+              "duration": 2214692500
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "I login with username \"student\" and password \"Password123\"",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:19"
+              "location": "features\\step-definitions\\login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 1197038900
+              "duration": 1000439298
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "I should see the success message",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:53"
+              "location": "features\\step-definitions\\login.steps.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 161788798
+              "duration": 249624399
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 754959200
+              "duration": 1481293799
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1076692800
+              "duration": 623308699
             }
           },
           {
@@ -89,11 +89,11 @@
             "line": 9,
             "name": "I open the Practice Test login page",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:11"
+              "location": "features\\step-definitions\\login.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 4500100898
+              "duration": 2054705499
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 10,
             "name": "I login with username \"incorrectUser\" and password \"Password123\"",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:19"
+              "location": "features\\step-definitions\\login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 284915699
+              "duration": 281158900
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 11,
             "name": "I should see the error message",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:59"
+              "location": "features\\step-definitions\\login.steps.js:59"
             },
             "result": {
               "status": "passed",
-              "duration": 101053999
+              "duration": 73060999
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1226201800
+              "duration": 1372177999
             }
           }
         ],
@@ -146,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1211353299
+              "duration": 623802499
             }
           },
           {
@@ -155,11 +155,11 @@
             "line": 14,
             "name": "I open the Practice Test login page",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:11"
+              "location": "features\\step-definitions\\login.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3148550298
+              "duration": 2311521399
             }
           },
           {
@@ -168,11 +168,11 @@
             "line": 15,
             "name": "I login with username \"student\" and password \"incorrectPassword\"",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:19"
+              "location": "features\\step-definitions\\login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 374867298
+              "duration": 297645900
             }
           },
           {
@@ -181,11 +181,11 @@
             "line": 16,
             "name": "I should see the error message",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:59"
+              "location": "features\\step-definitions\\login.steps.js:59"
             },
             "result": {
               "status": "passed",
-              "duration": 110499798
+              "duration": 60637398
             }
           },
           {
@@ -193,7 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 949939899
+              "duration": 1117537000
             }
           }
         ],
@@ -212,7 +212,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1062386899
+              "duration": 709243700
             }
           },
           {
@@ -221,11 +221,11 @@
             "line": 19,
             "name": "I open the Practice Test login page",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:11"
+              "location": "features\\step-definitions\\login.steps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 2711574299
+              "duration": 2578816898
             }
           },
           {
@@ -234,11 +234,11 @@
             "line": 20,
             "name": "I login with username \"@22348&*@()\" and password \"&*@@#&\"",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:19"
+              "location": "features\\step-definitions\\login.steps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 340087199
+              "duration": 204299099
             }
           },
           {
@@ -247,11 +247,11 @@
             "line": 21,
             "name": "I should see the error message",
             "match": {
-              "location": "features\\login\\step-definations\\login.steps.js:59"
+              "location": "features\\step-definitions\\login.steps.js:59"
             },
             "result": {
               "status": "passed",
-              "duration": 78093700
+              "duration": 70634098
             }
           },
           {
@@ -259,7 +259,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 754078999
+              "duration": 1027838299
             }
           }
         ],
