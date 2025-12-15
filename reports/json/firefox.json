@@ -1,0 +1,957 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "exceptions-testing;test-case-1---nosuchelementexception",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Case 1 - NoSuchElementException",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10493936200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Test Exceptions page",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3998053298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the Add button",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1657535398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Row 2 input field should be displayed",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6054189298
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14590255100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "exceptions-testing;test-case-2---elementnotinteractableexception",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test Case 2 - ElementNotInteractableException",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14316736900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the Test Exceptions page",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4569199199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the Add button",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 936248998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I wait for Row 2 input to appear",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5306447300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type \"Hello123\" into Row 2 input field",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 864108699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the visible Save button",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 927133398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the saved confirmation",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638142700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6467617900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "exceptions-testing;test-case-3---invalidelementstateexception",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Test Case 3 - InvalidElementStateException",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9435680500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I open the Test Exceptions page",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3398219800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the Edit button",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 546161299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I clear Row 1 input field",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 765903098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I type \"mirza\" into Row 1 input field",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124212399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click the Save button",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303593499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see the Row 1 saved message",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70371998
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3954802200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "exceptions-testing;test-case-4---staleelementreferenceexception",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Test Case 4 - StaleElementReferenceException",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9053718400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I open the Test Exceptions page",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3083361099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I capture the instructions text element",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 489940098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click the Add button for stale test",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458116799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "The instructions text element should disappear",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348877598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4639049199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "exceptions-testing;test-case-5---timeoutexception",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Test Case 5 - TimeoutException",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13939382100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I open the Test Exceptions page",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3992027598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I click the Add button",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 969145199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I wait only 3 seconds for Row 2 input",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3036252799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Row 2 input should NOT be displayed within 3 seconds",
+            "match": {
+              "location": "features\\exceptions\\step-definations\\exceptions.steps.js:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 804399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6099956800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "exceptions-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Exceptions Testing",
+    "tags": [],
+    "uri": "features\\exceptions\\exceptions.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "practice-test-automation-login;valid-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Valid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8458914900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Practice Test login page",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3576536499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username \"student\" and password \"Password123\"",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1763882500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the success message",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 721523498
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2972544299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-test-automation-login;invalid-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6436273799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the Practice Test login page",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2697815898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login with username \"incorrectUser\" and password \"Password123\"",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760777899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the error message",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 444823499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2680861299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-test-automation-login;invalid-login",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5271721900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open the Practice Test login page",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2724173898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I login with username \"student\" and password \"incorrectPassword\"",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 662011599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the error message",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116895599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2224613000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-test-automation-login;invalid-login",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5211422099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open the Practice Test login page",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2414959399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I login with username \"@22348&*@()\" and password \"&*@@#&\"",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 445121200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the error message",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166458300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2253002100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "practice-test-automation-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Practice Test Automation Login",
+    "tags": [],
+    "uri": "features\\login\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "table-data-validation;test-case-1---language-filter-->-java",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Case 1 - Language Filter -> Java",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5411847899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Practice Test Table page",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2480398398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select language filter \"Java\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025569899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I count how many cells in column 3 contain \"Java\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16354398
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2151934599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "table-data-validation;test-case-2---uncheck-level-filters",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test Case 2 - Uncheck level filters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5323732900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the Practice Test Table page",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2532660399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I uncheck level \"Intermediate\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1044348998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I uncheck level \"Advanced\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 622625398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the level should contain \"Beginner\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10541798
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2310916700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "table-data-validation;test-case-3---filter-and-sort-table",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Test Case 3 - Filter and sort table",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5436877700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I open the Practice Test Table page",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4313679600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I open the filter dropdown",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 341132599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I select the option \"10,000+\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197136599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I print the enrollment column name and all row values",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244843999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2192105499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "table-data-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Table Data Validation",
+    "tags": [],
+    "uri": "features\\table\\table.feature"
+  }
+]

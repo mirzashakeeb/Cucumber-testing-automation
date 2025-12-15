@@ -1,0 +1,57 @@
+name: Playwright Cucumber Tests (Multi-Browser)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Checkout repository
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    # 2. Install Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    # 3. Install npm packages
+    - name: Install Dependencies
+      run: npm install
+
+    # 4. Install Playwright browsers
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+
+    # 5. Run Chromium Tests
+    - name: Run Tests - Chromium
+      run: |
+        BROWSER=chromium \
+        npx cucumber-js --format json:./reports/json/chromium.json \
+        --require ./support/*.js \
+        --require ./features/step-defination/*.js
+
+    # 6. Run Firefox Tests
+    - name: Run Tests - Firefox
+      run: |
+        BROWSER=firefox \
+        npx cucumber-js --format json:./reports/json/firefox.json \
+        --require ./support/*.js \
+        --require ./features/step-defination/*.js
+
+    # 7. Run WebKit Tests
+    - name: Run Tests - Webkit
+      run: |
+        BROWSER=webkit \
+        npx cucumber-js --format json:./reports/json/webkit.json \
+        --require ./support/*.js \
+        --require ./features/step-defination/*.js
+
+    # 8. Generate HTML Report
+    - name: Generate HTML Report
+      run: node ./support/report.js

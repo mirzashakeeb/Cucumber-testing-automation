@@ -1,0 +1,237 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "table-data-validation;test-case-1---language-filter-->-java",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Case 1 - Language Filter -> Java",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1489027499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Practice Test Table page",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11169568499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select language filter \"Java\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 728869300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I count how many cells in column 3 contain \"Java\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19706599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3097188799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "table-data-validation;test-case-2---uncheck-level-filters",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test Case 2 - Uncheck level filters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1549247000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the Practice Test Table page",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3253947299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I uncheck level \"Intermediate\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 711559900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I uncheck level \"Advanced\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 971237599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the level should contain \"Beginner\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11715300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1870760099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "table-data-validation;test-case-3---filter-and-sort-table",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Test Case 3 - Filter and sort table",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1526233200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I open the Practice Test Table page",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2509087500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I open the filter dropdown",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134579200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I select the option \"10,000+\"",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265924499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I print the enrollment column name and all row values",
+            "match": {
+              "location": "features\\table\\step-definitions\\table.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192953098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1633269899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "table-data-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Table Data Validation",
+    "tags": [],
+    "uri": "features\\table\\table.feature"
+  }
+]

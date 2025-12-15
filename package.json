@@ -1,0 +1,28 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chromium": "cross-env BROWSER=chromium cucumber-js --format json:./reports/json/chromium.json --require ./features/**/*.js --require ./support/*.js",
+    "test:firefox": "cross-env BROWSER=firefox cucumber-js --format json:./reports/json/firefox.json --require ./features/**/*.js --require ./support/*.js",
+    "test:webkit": "cross-env BROWSER=webkit cucumber-js --format json:./reports/json/webkit.json --require ./features/**/*.js --require ./support/*.js",
+    "test:all": "concurrently \"npm run test:chromium\" \"npm run test:firefox\" \"npm run test:webkit\"",
+    "test:exceptions": "cross-env BROWSER=chromium cucumber-js features/exceptions --require ./features/**/*.js --require ./support/*.js --format json:./reports/json/exceptions.json",
+    "test:login": "cross-env BROWSER=chromium cucumber-js features/login --require ./features/**/*.js --require ./support/*.js --format json:./reports/json/login.json",
+    "test:table": "cross-env BROWSER=chromium cucumber-js features/table --require ./features/**/*.js --require ./support/*.js --format json:./reports/json/table.json",
+    "report": "node ./support/report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.57.0",
+    "chai": "^6.2.1",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "playwright": "^1.56.1"
+  }
+}

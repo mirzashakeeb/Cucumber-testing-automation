@@ -1,0 +1,277 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "practice-test-automation-login;valid-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Valid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1303625900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Practice Test login page",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3112511098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username \"student\" and password \"Password123\"",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1197038900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the success message",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161788798
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 754959200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-test-automation-login;invalid-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1076692800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I open the Practice Test login page",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4500100898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login with username \"incorrectUser\" and password \"Password123\"",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284915699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see the error message",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101053999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1226201800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-test-automation-login;invalid-login",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1211353299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open the Practice Test login page",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3148550298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I login with username \"student\" and password \"incorrectPassword\"",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374867298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the error message",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110499798
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 949939899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "practice-test-automation-login;invalid-login",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Invalid Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1062386899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open the Practice Test login page",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2711574299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I login with username \"@22348&*@()\" and password \"&*@@#&\"",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 340087199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the error message",
+            "match": {
+              "location": "features\\login\\step-definations\\login.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78093700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 754078999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "practice-test-automation-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Practice Test Automation Login",
+    "tags": [],
+    "uri": "features\\login\\login.feature"
+  }
+]
