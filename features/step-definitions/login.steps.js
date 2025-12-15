@@ -53,7 +53,7 @@ When("I login with invalid password", async function () {
 Then("I should see the success message", async function () {
   await this.page.waitForSelector("h1", { timeout: 5000 });
   const msg = await this.page.textContent("h1");
-  expect(msg).to.include("Login Successful");
+  expect(msg).to.include("Logged In Successfully");
 });
 
 Then("I should see the error message", async function () {
