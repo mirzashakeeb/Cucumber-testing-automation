@@ -1,7 +1,7 @@
 const { Given, When, Then } = require("@cucumber/cucumber");
 const { expect } = require("chai");
-const LoginPage = require("../../../pages/LoginPage");
-const { credentials } = require("../../../config/testData");
+const LoginPage = require("../../pages/LoginPage");
+const { credentials } = require("../../config/testData");
 
 let login;
 

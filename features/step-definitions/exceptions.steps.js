@@ -1,6 +1,6 @@
 const { Given, When, Then } = require("@cucumber/cucumber");
 const { expect } = require("chai");
-const ExceptionsPage = require("../../../pages/ExceptionsPage");
+const ExceptionsPage = require("../../pages/ExceptionsPage");
 
 let exceptions;
 

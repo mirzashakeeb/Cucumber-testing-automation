@@ -1,6 +1,6 @@
 const { Given, When, Then } = require("@cucumber/cucumber");
 const { expect } = require("chai");
-const TablePage = require("../../../pages/TablePage");
+const TablePage = require("../../pages/TablePage");
 
 Given("I open the Practice Test Table page", async function () {
   this.tablePage = new TablePage(this.page);
