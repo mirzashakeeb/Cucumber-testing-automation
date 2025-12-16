@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 764342400
+              "duration": 1889954300
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2187837798
+              "duration": 3570451398
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 750093298
+              "duration": 162972898
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7650099
+              "duration": 33248499
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1336214300
+              "duration": 2507142199
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 781298100
+              "duration": 1792078300
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2133190500
+              "duration": 3333854200
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 646472299
+              "duration": 110201599
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 562002400
+              "duration": 115760000
             }
           },
           {
@@ -132,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9068299
+              "duration": 20271799
             }
           },
           {
@@ -140,7 +140,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1231692199
+              "duration": 2154141999
             }
           }
         ],
@@ -159,7 +159,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 581125199
+              "duration": 1632911199
             }
           },
           {
@@ -172,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2241490499
+              "duration": 3126259300
             }
           },
           {
@@ -185,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 123478199
+              "duration": 81177500
             }
           },
           {
@@ -198,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 215891698
+              "duration": 434772299
             }
           },
           {
@@ -211,7 +211,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 217072498
+              "duration": 165691499
             }
           },
           {
@@ -219,7 +219,73 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1169785200
+              "duration": 2214084299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "table-data-validation;test-case-4---sort-table-by-course-name-using-dropdown",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Test Case 4 - Sort table by Course Name using dropdown",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1573077000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I open the Practice Test Table page",
+            "match": {
+              "location": "features\\step-definitions\\table.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3172121800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user sorts table by Course Name",
+            "match": {
+              "location": "features\\step-definitions\\table.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99049298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "sorted course names should be printed",
+            "match": {
+              "location": "features\\step-definitions\\table.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54643899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2464286300
             }
           }
         ],

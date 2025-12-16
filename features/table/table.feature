@@ -17,3 +17,7 @@ Feature: Table Data Validation
     And I select the option "10,000+"
     Then I print the enrollment column name and all row values
 
+  Scenario: Test Case 4 - Sort table by Course Name using dropdown
+    Given I open the Practice Test Table page
+    When user sorts table by Course Name
+    Then sorted course names should be printed

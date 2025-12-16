@@ -45,3 +45,15 @@ When('I select the option {string}', async function (optionName) {
 Then('I print the enrollment column name and all row values', async function () {
   await this.tablePage.printEnrollmentData();
 });
+
+//------test case 04
+
+When("user sorts table by Course Name", async function () {
+  await this.tablePage.selectSortByCourseName();
+});
+
+Then("sorted course names should be printed", async function () {
+  await this.tablePage.printSortedCourseNames();
+});
+
+
